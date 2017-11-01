@@ -102,6 +102,7 @@
 			<?php endif; // End header image check. ?>
 		</header><!-- .site-header --> <? }else{
     echo("<br><br>");
+    //add slider
      wd_slider(2); 
 } ?>
 
