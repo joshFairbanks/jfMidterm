@@ -31,7 +31,23 @@ Template: twentysixteen
 }
 
 /* change color for all horizontal lines and reduce size by half */
-.widget,.post-navigation,.page-header{
+.widget,.post-navigation,.page-header,.comment-reply-title{
     border-color: #d0d0d0;
     border-width: 2px;
+}
+#wds_container1_0 #wds_container2_0 .wds_slideshow_image_container_0, .wds_slideshow_image_wrap_0, #wds_container2_0{
+  /*  height:70vh !important;*/
+ 
+
+}
+/* my slideshow plugin seems to be automatically cropping my images */
+.wds_slideshow_image_0{
+      width:100% !important;
+    height:100% !important;  
+    
+}
+.content-area
+.beautiful-data .entry-title{
+    display:none;
+    
 }

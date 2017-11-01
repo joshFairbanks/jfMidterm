@@ -11,7 +11,7 @@
 ?>
 
 		</div><!-- .site-content -->
-
+<?php  if(!is_page($page = "Beautiful data" )){ ?>
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<?php if ( has_nav_menu( 'primary' ) ) : ?>
 				<nav class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Primary Menu', 'twentysixteen' ); ?>">
@@ -52,7 +52,7 @@
                 
 			</div><!-- .site-info -->
             <?php echo comicpress_copyright(); ?>
-		</footer><!-- .site-footer -->
+		</footer><!-- .site-footer --> <? } ?>
 	</div><!-- .site-inner -->
 </div><!-- .site -->
 
